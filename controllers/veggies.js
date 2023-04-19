@@ -18,9 +18,8 @@ const getVeggies = (req, res) => {
 
 
 const getVeg = (req, res) => {
-    const name = req.params.name
-    const specificVeg = veggies.find(({name}) => name)
-    console.log(specificVeg)
+    const nameOfVeggie = req.params.name
+    const specificVeg = veggies.find(({name}) => name === nameOfVeggie)
     res.send(specificVeg)
   }
 

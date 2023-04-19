@@ -33,9 +33,4 @@ app.get('/fruits/sort', fruit.getFruitsSort)
 app.get('/veggies', veg.getVeggies)
 app.get('/veggies/:name', veg.getVeg)
 
-/*
-app.get('/apts', apartments.getApts)
-app.get('/houses', houses.getHouses)
 
-app.get('/houses/:id', houses.getHouse)
-*/
