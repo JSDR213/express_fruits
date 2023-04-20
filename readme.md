@@ -112,7 +112,7 @@ ___
 app.get('/fruits/sort', (req, res) => {
   // implement sort
 
-  res.send()
+  res.send(fruitList.sort())
 })
 ```
 
